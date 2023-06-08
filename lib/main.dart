@@ -39,4 +39,13 @@ class MainApp extends StatelessWidget {
   }
 
 
+class Column extends MainApp {
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+    );
+  }
+}
+
+
 
